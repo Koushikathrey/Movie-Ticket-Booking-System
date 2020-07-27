@@ -1,0 +1,91 @@
+*{
+	padding:0px;
+	margin:0px;
+	color:#ffff;
+	font-family: "Times New Roman ";
+	box-sizing:border-box;
+	border-bottom: 1px solid #fff;
+	border:none;
+	outline:none;
+	background:transparent;
+}
+body{
+	background-image: url("cine.jpg");
+}
+
+a{text-decoration:none;font-weight:600;}
+.link{color:#00aced;}
+p{margin:5px 0px;
+	line-height: 1.8;
+	text-shadow: 3px 2px blue;}
+.box{
+	width:400px;
+	height:auto;
+	margin:130px 750px;
+    background-color:#000;
+}
+.inner-box{
+	padding:20px;
+}
+.box h1,h2,h3,h4,h5,h6{
+	text-align:center;
+	margin:5px 0px;
+}
+.forgot{
+	float:right;
+}
+input[type="text"],input[type="number"],input[type="password"],input[type="email"]{
+	width:100%;
+	padding:10px;
+	margin:10px 0px;
+	border:none;
+	background:transparent;
+	border-bottom: 1px solid #fff;
+}
+.link{
+	background-color:rgba(0, 217, 255, 0.322);
+	color:rgb(243, 188, 8);
+	font-size:22px;
+	font-weight:600;
+	cursor:pointer;
+	border-radius:250px 250px 250px 250px;
+}
+[type="submit"]{
+	width:100%;
+	padding:10px;
+	margin:10px 0px;
+	border:none;
+	background:transparent;
+	border-bottom: 1px solid #fff;
+}
+[type="submit"]{
+	border:1px solid #3B5998;
+	background-color:red;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	border-radius:250px 250px 250px 250px;
+}
+
+#ph{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+#phone{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+h2{
+	text-shadow: 3px 2px blue;
+}

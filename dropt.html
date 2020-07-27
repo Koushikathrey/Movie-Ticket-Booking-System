@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selected Option Value</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styledropt.css" />
+        <script src="functions.js" type="text/javascript"></script>
+        <style>
+            body {
+              background-image: url("cine.jpg");
+              background-repeat: no-repeat;
+              margin-right: 200px;
+              background-attachment: scroll;
+            }
+            </style>
+    </head>
+    <body onload="city();seat();date();show()" >
+        
+        <div class="box">
+            <br>
+            <h1> MOVIE SELECTION</h1>
+        <div class="inner-box">
+            <form onsubmit=" insertticket()" >
+        <p>Choose City</p>
+        <select  class="values" id="cities" onchange="oncitySelection(this.value)" required>
+            <option value="" selected>Please Select a City</option>
+        </select>
+        <br>
+        <br>
+        <p>Choose Movie</p>
+        <select class="values"id="movies" onchange="onmovieSelection(this.value)" required>
+            <option value="" selected>Please select a MOVIE</option>
+        </select>
+        <br>
+        <br>
+        <p>Choose Theatre</p>
+        <select class="values" id="theatres" required>
+            <option value="" selected>Please Select a Theatre</option>        
+        </select>
+        <br>
+        <br>
+        <p>Choose Seat</p>
+        <img src="seat.jpg" alt="seats"  >
+        <select class="values" id="seats" onchange="onseatSelection(this.value)" required>
+            <option value="" selected>Please Select a Seat</option>
+        </select>
+        <br>
+        <br>
+        <p>Choose Show Date and Time</p>
+        <select class="values" id="date" required>
+            <option value="" selected>Please select a Date</option>
+        </select>
+        <br>
+        <br>
+        <select class="values" id="time" required>
+            <option value="" selected>Please select a Show</option>
+        </select>
+        <br>
+        <br>
+        <p>Total Amount</p>
+        <select class="values" id="price" required>
+                <option value="" selected>Click and verify the price</option>
+            </select>
+                <br>
+                <br>
+        <p style="text-align:center;" >
+                <input type="submit" value="BOOK MOVIE TICKET">
+            </p>
+        </form>
+</div>
+</div>
+    </body>
+</html>

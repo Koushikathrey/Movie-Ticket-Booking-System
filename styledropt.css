@@ -1,0 +1,112 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "Times New Roman";
+	box-sizing:border-box;
+	color:blue;
+}
+
+.body{
+	background-image: url("cine.jpg");
+}
+
+p{margin:5px 0px;
+	color:white;
+	font-size:25px;
+	text-shadow: 3px 2px blue;
+
+}
+
+.box{
+	width:370px;
+	height:auto;
+	margin:200px 650px;
+	background-color:#000;
+	color:white;
+}
+.inner-box{
+	padding:20px;
+	margin:0 15px;
+	}
+.box h1,h2,h3,h4,h5,h6{
+
+	margin:5px 0px;
+	}
+
+.values{
+	width:250px;
+	margin:0 auto;
+	padding:5px;
+	font-size:20px;
+	background:transparent;
+	
+	color:white;
+}
+
+.row{
+	width:100px;
+	margin:0 auto;
+	padding:5px;
+		font-size:20px;
+	background:transparent;
+	
+	color:white;
+}
+[type="submit"]{
+	width:100%;
+	padding:10px;
+	margin:10px 0px;
+	border:none;
+	background:transparent;
+	border-bottom: 1px solid #fff;
+}
+[type="submit"]{
+	border:1px solid #3B5998;
+	background-color:red;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	
+}
+.num{
+	width:100px;
+	margin:0 auto;
+	padding:5px;
+	font-size:20px;
+	background:transparent;
+	
+	color:white;
+}
+.li{
+	width:80px;
+	margin:0 auto;
+	padding:5px;
+	font-size:17px;
+	background:transparent;
+	color:white;
+}
+a{text-decoration:none;font-weight:600;}
+.link{color:#fff;}
+
+input[type="text"]{
+	width:100%;
+	padding:10px;
+	margin:10px 0px;
+	border:none;
+	background:transparent;
+	border-bottom: 1px solid #fff;
+}
+h1{
+	text-align:center;
+	color:white;
+	text-shadow: 3px 2px blue;
+}
+img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+  }
+
+
